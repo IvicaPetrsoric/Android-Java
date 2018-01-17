@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundItem">#C0C0C0</color>
+    <color name="separator">#00000000</color>
+    <color name="lineItem">#404040</color>
+    <color name="updateText">#FF0000</color>
+    <color name="insertText">#006600</color>
+    <color name="color_id">#FF0000</color>
+    <color name="color_namesurname">#000000</color>
+    <color name="color_date">#0000FF</color>
+    <color name="color_mark">#404040</color>
+</resources>

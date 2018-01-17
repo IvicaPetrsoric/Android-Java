@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings_name">
+
+
+    <PreferenceCategory android:title="@string/general_category">
+
+        <CheckBoxPreference
+            android:key="lettercase"
+            android:title="@string/lettercase"
+            android:summaryOn="@string/lowercase_on"
+            android:summaryOff="@string/lowercase_off"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/visual_category">
+        <EditTextPreference
+            android:key="keyboard_height_percentage"
+            android:title="@string/keyboard_height_title"
+            android:defaultValue="@string/keyboard_height_default"
+            android:editable="true"
+            android:autoText="true"
+            android:inputType="numberDecimal"/>
+
+        <EditTextPreference
+        android:key="enlarge_key_percentage"
+        android:title="@string/enlarge_title_key"
+        android:defaultValue="@string/enlargement_default_key"
+        android:editable="true"
+        android:autoText="true"
+        android:inputType="numberDecimal"/>
+
+        <EditTextPreference
+            android:key="enlarge_row_percentage"
+            android:title="@string/enlarge_title_row"
+            android:defaultValue="@string/enlargement_default_row"
+            android:editable="true"
+            android:autoText="true"
+            android:inputType="numberDecimal"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

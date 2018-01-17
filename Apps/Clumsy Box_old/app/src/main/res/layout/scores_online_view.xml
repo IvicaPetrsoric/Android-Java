@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/munje_3"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.10"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/openWebButton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Web"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.65"
+            android:orientation="horizontal"
+            />
+
+
+        <Button
+            android:id="@+id/buttonPovratakOnlineView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/back0"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:onClick="povratakScoreIzbornik" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="start|center"
+            android:text="@string/playerName0"
+            android:id="@+id/textNazivIgraca"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="start|center"
+            android:text="@string/playerScore0"
+            android:textSize="20sp"
+            android:id="@+id/rezultatIgraca"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.10"
+
+        >
+
+        <Button
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:textStyle="bold"
+            android:onClick="importScore" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.05">
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TOP 50!"
+        android:textSize="20sp"
+        android:id="@+id/top50Server"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        >
+
+        <ListView
+            android:requiresFadingEdge ="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:dividerHeight="10dp"
+            android:footerDividersEnabled="false"
+            android:divider="@color/separator"
+            android:padding="10dp"
+            android:scrollbarStyle="outsideOverlay"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

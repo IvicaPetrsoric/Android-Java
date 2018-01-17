@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#002244"
+    >
+
+
+    <TableRow
+        android:id="@+id/tableRowNulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textTrgovinaPlayers"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="PLAYERS"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:id="@+id/tableRowPrvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Popcorn"
+            android:gravity="center|end"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonPopcorn"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/kokica_1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="10000 "
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/coin"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+
+
+    </TableRow>
+
+    <!--
+
+    <TableRow
+        android:id="@+id/tableRowPrvi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Popcorn"
+            android:gravity="center|end"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonPopcorn2"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/kokica_2"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="/ "
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/coin"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+
+
+    </TableRow>
+    -->
+
+
+    <View
+
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:background="#0d47a1" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textTrgovinaZlatnici"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="GOLD"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableDrugi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="+100 "
+            android:gravity="center|end"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonCroatian"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/coin"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="1$"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTreci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="+500 "
+            android:gravity="center|end"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/coin"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="5$"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableCetvrti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="+1000 "
+            android:gravity="center|end"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/coin"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+        <TextView
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="10$"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+</LinearLayout>

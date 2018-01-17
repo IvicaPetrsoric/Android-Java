@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#004488">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="5dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="0.89"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:scaleType="fitStart"
+            android:src="@drawable/close_button"
+            android:background="@null"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/buttonCloseOptions" />
+
+    </LinearLayout>
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/postavkeMuzika"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="MUSIC"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+        <SeekBar
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarMusic"
+            android:indeterminate="false" />
+
+
+        <TextView
+            android:id="@+id/seekTextMusic"
+            android:layout_weight="0.3"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0 / 100"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/postavkeSfxMuzika"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="SFX MUSIC"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:id="@+id/tableRowPrvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+
+        <SeekBar
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarSFX"
+            android:indeterminate="false" />
+
+
+        <TextView
+            android:id="@+id/seekTextSFX"
+            android:layout_weight="0.3"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0 / 100"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/textCheckBox"
+            android:layout_weight="0.7"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Isključi ulaznu glazbu:"
+            android:gravity="center|start"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text=""
+            android:id="@+id/checkBox"
+
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+        <Button
+            android:scaleType="centerInside"
+            android:src="@drawable/close_button"
+            android:background="@null"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="SAVE"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonSaveOptions" />
+
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

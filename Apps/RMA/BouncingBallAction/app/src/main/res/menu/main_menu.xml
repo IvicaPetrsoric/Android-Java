@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/action_stopgo"
+        android:icon="@drawable/play"
+        android:title="StopGo"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/action_startover"
+        android:title="Start over"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_sendhigh"
+        android:title="Send local highscore"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_sendlast"
+        android:title="Send last game result"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_gainlife"
+        android:title="Buy life"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_highscore_results"
+        android:title="Show highscore list"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/my_button">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:layout_margin="10dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:id="@+id/contactPhoto"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_contact_picture_holo_light"
+                android:layout_weight="0.4"
+                android:onClick="addPhoto" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/edittext_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:ems="10"
+                    android:inputType="textCapSentences"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/my_button"
+                    android:textStyle="bold"
+                    android:hint="@string/name"
+                    android:nextFocusDown="@+id/edittext_surname"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edittext_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:ems="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/my_button"
+                    android:inputType="textCapSentences"
+                    android:textStyle="bold"
+                    android:hint="@string/surname"
+                    android:nextFocusDown="@+id/edittext_date"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/edittext_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_margin="5dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/dateofbirth"
+                    android:nextFocusDown="@+id/edittext_rmamark"
+                    android:textStyle="bold"
+                    android:background="@drawable/my_button"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edittext_rmamark"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:layout_margin="5dp"
+                    android:hint="Players rank:"
+                    android:background="@drawable/my_button"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+<!--
+</ScrollView>
+-->

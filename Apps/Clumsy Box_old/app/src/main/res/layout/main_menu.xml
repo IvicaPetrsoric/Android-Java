@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/munje_7"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    android:id="@+id/MainMenuView"    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/prvaTraka"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:scaleType="centerInside"
+            android:src="@drawable/jezici"
+            android:background="@null"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:gravity="end|center"
+            android:id="@+id/buttonTest" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/nultaTraka"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeMuzike"
+            android:src="@drawable/muzika_onn"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:onClick="kontrolaMuzike" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeSFX"
+            android:src="@drawable/sfx_on"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:weightSum="3"
+        >
+
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/start0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:background="@null"
+            android:id="@+id/buttonStart"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="100dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="pokreniGameLvl" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/worlds0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:background="@null"
+            android:id="@+id/buttonWorlds"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="100dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="openWorlds" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score0"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/buttonScoreLvl"
+            android:background="@null"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:onClick="pokreniScoreIzbornik" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.025" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:scaleType="centerInside"
+            android:src="@drawable/options"
+            android:background="@null"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="end|center"
+            android:id="@+id/buttonOptions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:scaleType="centerInside"
+            android:src="@drawable/ads_0"
+            android:background="@null"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="end|center"
+            android:id="@+id/buttonNoAds" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.025" />
+
+    <Button
+        android:layout_weight="0.1"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:id="@+id/buttonQuit"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:gravity="center"
+        android:minWidth="100dp" />
+
+</LinearLayout>

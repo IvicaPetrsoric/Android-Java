@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">MyDBexample</string>
+
+    <string name="add_record">Add record</string>
+    <string name="search_records">Search records</string>
+
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="dateofbirth">Date of birth:</string>
+    <string name="rmamark">RMA grade:</string>
+    <string name="buttonadd">Insert</string>
+    <string name="buttonreset">Cancel</string>
+    <string name="buttonupdate">Update record</string>
+    <string name="buttondefault">Back to default</string>
+
+</resources>

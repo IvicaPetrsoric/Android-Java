@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_button"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Date"
+        android:textStyle="bold"
+        android:id="@+id/dateButton"
+        android:layout_weight="0.12"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button"
+        android:layout_gravity="bottom" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Start time"
+            android:textStyle="bold"
+            android:id="@+id/startTimeButton"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp"
+            android:background="@drawable/my_button"
+            android:onClick="timePicker" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="End time"
+            android:textStyle="bold"
+            android:id="@+id/endTimeButton"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp"
+            android:background="@drawable/my_button"
+            android:onClick="timePicker2" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext_players"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button"
+        android:hint="Players:"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:layout_weight="0.12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.04" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/playersListView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.6" />
+
+</LinearLayout>

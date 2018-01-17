@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/date_view"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_namesurname"
+            android:background="@drawable/my_button"
+            android:layout_marginTop="5dp"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/time_view"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_namesurname"
+            android:layout_toRightOf="@+id/date_view"
+            android:background="@drawable/my_button"
+            android:layout_marginTop="5dp"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/players_view"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_view"
+            android:textColor="@color/color_namesurname"
+            android:padding="6dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

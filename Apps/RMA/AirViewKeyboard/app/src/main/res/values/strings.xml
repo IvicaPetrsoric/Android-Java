@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AirViewKeyboard</string>
+    <string name="my_ime">AirView Keyboard</string>
+
+    <string name="settings_name">AirView Keyboard settings</string>
+    <string name="general_category">General settings</string>
+    <string name="lettercase">Lowercase</string>
+    <string name="lowercase_on">ON</string>
+    <string name="lowercase_off">OFF</string>
+    <string name="visual_category">Visuals</string>
+    <string name="enlarge_title_key">Key enlargement (out of 1.0)</string>
+    <string name="enlargement_default_key">0.25</string>
+    <string name="enlarge_title_row">Row enlargement (out of 1.0)</string>
+    <string name="enlargement_default_row">0.40</string>
+    <string name="keyboard_height_title">Keyboard screen portion (out of 1.0)</string>
+    <string name="keyboard_height_default">0.385</string>
+
+
+</resources>

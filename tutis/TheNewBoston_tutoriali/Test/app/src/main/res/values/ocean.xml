@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    CUSTOM BOJE
+
+    <style name="BabyBlue">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#efefef</item>
+        <item name="android:background">#006699</item>
+
+
+    </style>
+
+    <style name="BabyBlue.BigBlue">
+
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    -->
+    
+    <color name="moje_bg_color">#009900</color>
+
+    <style name="MojTheme" parent="android:Theme.Light">
+
+        <item name="android:windowBackground">@color/moje_bg_color</item>
+
+    </style>
+    
+    
+    
+
+
+
+</resources>

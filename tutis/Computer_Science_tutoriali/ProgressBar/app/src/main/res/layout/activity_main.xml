@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ivica.progressbar.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myProgressBar"
+        android:layout_centerHorizontal="true"
+
+         />
+
+    <ProgressBar
+        android:id="@+id/myProgressBar"
+
+        style="?android:attr/progressBarStyleHorizontal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:indeterminate="false"
+        android:max="100"
+
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:progress="1"
+        />
+    <!-- Punjenej   android:indeterminate="false"   bara-->
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Kreni"
+        android:textAllCaps="false"/>
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/munje_1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/prvaTraka"
+        android:weightSum="1"
+        android:layout_weight="0.10">
+
+
+
+        <TextView
+            android:layout_weight="0.7"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ukupno"
+            android:textStyle="bold"
+            android:id="@+id/brojZlatnikaSkrinje"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center|end"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:src="@drawable/skrinja_puna"
+            android:background="@null"
+            android:scaleType="centerInside"
+           />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.10">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeMuzike"
+            android:src="@drawable/muzika_onn"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:onClick="kontrolaMuzike" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeSFX"
+            android:src="@drawable/sfx_on"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total score "
+            android:textStyle="bold"
+            android:id="@+id/ukupnoBodova"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restart0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:id="@+id/buttonRestart"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="100dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="pokreniGameLvl" />
+
+
+        <Button
+
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:id="@+id/buttonScoreLvl"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:onClick="pokreniScoreLvl" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="0.4"
+            />
+
+        <Button
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mainMenu0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:id="@+id/buttonMainMenu"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:onClick="pokreniMainMenu" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ivica.clumsybox.Scores.Scores"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+           >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/openWebButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/btn_close"
+                    android:elevation="0dp"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:onClick="closeScoreView"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:text="Scores"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.05">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.075"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.40"
+            android:background="@drawable/closed_tab"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:onClick="toggleScores"
+            android:text="Local"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGlobal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.40"
+            android:background="@drawable/closed_tab"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:onClick="toggleScores"
+            android:text="Global"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.025">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bottomLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.40"
+                android:background="#FFFFFF"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="1"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" />
+
+        <ListView
+            android:id="@+id/scoresList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@color/backgroundInner"
+            android:dividerHeight="3dp"
+            android:divider="@null"
+
+            android:footerDividersEnabled="true"
+            android:scrollbarStyle="outsideOverlay" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/webError"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.125"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Error!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#e53935"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/myPostion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:gravity="start|bottom"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="You: #5"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/totalPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="Total: 1000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

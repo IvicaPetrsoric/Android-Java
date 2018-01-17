@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cijeliEkran"
+    tools:context=".Game_Lvl.MainActivity"
+    android:layout_weight="1"    >
+
+    <LinearLayout
+        android:layout_weight="0.95"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/GameView"
+        >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="0.05"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/ispodGameView"
+        android:background="#000000"
+        android:weightSum="1">
+
+        <Button
+            android:layout_weight="0.3"
+            android:id="@+id/dugmeReklama"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="reklame"
+            android:textColor="#FFF"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

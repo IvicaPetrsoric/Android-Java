@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:title="@string/search_records"/>
+
+    <item
+    android:id="@+id/action_add"
+    android:icon="@android:drawable/ic_menu_add"
+    app:showAsAction="always"
+    android:title="@string/add_record"/>
+
+    <item
+        android:id="@+id/action_add_training"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="Add Training"/>
+
+    <item
+        android:id="@+id/action_add_finance"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="Add Finance"/>
+
+</menu>

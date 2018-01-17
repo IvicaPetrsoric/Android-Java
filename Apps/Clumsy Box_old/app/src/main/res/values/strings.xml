@@ -1,0 +1,275 @@
+<resources>
+
+    <!--    START LVL       -->
+
+    <!--    JEZICI      -->
+        <string name="english">English </string>
+        <string name="croatian">Hrvatski </string>
+        <string name="german">Deutsch </string>
+        <string name="italian">Italiano </string>
+        <string name="kineski">中国 </string>
+
+
+        <!--    Botun start      -->
+        <string name="start0">Start </string>
+        <string name="start1">Početak </string>
+        <string name="start2">Anfang </string>
+        <string name="start3">Inizio </string>
+        <string name="start4">开始  </string>
+
+        <!--    Botun Worlds      -->
+        <string name="worlds0">Worlds </string>
+        <string name="worlds1">Svjetovi </string>
+        <string name="worlds2">Welten </string>
+        <string name="worlds3">Mondi </string>
+        <string name="worlds4">世界 </string>
+
+        <!--    Botun Scores      -->
+        <string name="score0">Scores </string>
+        <string name="score1">Rezultati </string>
+        <string name="score2">Noten </string>
+        <string name="score3">I punteggi </string>
+        <string name="score4">成绩 </string>
+
+        <!--    Botun quit      -->
+        <string name="quit0">Quit </string>
+        <string name="quit1">Izlazak </string>
+        <string name="quit2">Verlassen </string>
+        <string name="quit3">Smettere </string>
+        <string name="quit4">放弃  </string>
+
+        <!--    Text kupnja noAds      -->
+        <string name="buyNoAds0">Do you want to turn off the ads? </string>
+        <string name="buyNoAds1">Želite isključiti reklame? </string>
+        <string name="buyNoAds2">Wollen Sie die Anzeigen auszuschalten? </string>
+        <string name="buyNoAds3">Non si desidera disattivare gli annunci? </string>
+        <string name="buyNoAds4">你想关掉广告？  </string>
+
+        <!--    Text isključenog noAds      -->
+        <string name="iskljuceneReklame0">Excluded ads! </string>
+        <string name="iskljuceneReklame1">Isključene reklame! </string>
+        <string name="iskljuceneReklame2">Ausgeschlossen ausgezeichnet! </string>
+        <string name="iskljuceneReklame3">Annuncio escluso! </string>
+        <string name="iskljuceneReklame4">排除的广告！  </string>
+
+        <!--    Text Quit      -->
+        <string name="textQuit0">Are you sure you want to exit? </string>
+        <string name="textQuit1">Da li želite izaći iz igrice? </string>
+        <string name="textQuit2">Sie sind sicher, dass Sie beenden wollen? </string>
+        <string name="textQuit3">Sei sicuro di voler uscire? </string>
+        <string name="textQuit4">你确定要离开？  </string>
+
+        <!--    Text Quit pozitive    -->
+        <string name="textPozitive0">Yes </string>
+        <string name="textPozitive1">Da </string>
+        <string name="textPozitive2">Ja </string>
+        <string name="textPozitive3">Si </string>
+        <string name="textPozitive4">是  </string>
+
+        <!--    Text Quit negative    -->
+        <string name="textNegative0">No </string>
+        <string name="textNegative1">Ne </string>
+        <string name="textNegative2">Nein </string>
+        <string name="textNegative3">No </string>
+        <string name="textNegative4">没有  </string>
+
+        <!--    MUZIKA    -->
+        <string name="music0">MUSIC </string>
+        <string name="music1">GLAZBA </string>
+        <string name="music2">MUSIK </string>
+        <string name="music3">MUSICA </string>
+        <string name="music4">音乐  </string>
+
+        <!--    texyt muzike CheckBox    -->
+        <string name="textCheckBox0">Off intro music: </string>
+        <string name="textCheckBox1">Isključi ulaznu glazbu: </string>
+        <string name="textCheckBox2">Aus Eingangs Musik: </string>
+        <string name="textCheckBox3">Fuori la musica d ingresso: </string>
+        <string name="textCheckBox4">关闭输入音乐:  </string>
+
+
+
+    <!--    SFX MUZIKA    -->
+    <string name="sfxMusic0">SFX MUSIC </string>
+    <string name="sfxMusic1">SFX GLAZBA </string>
+    <string name="sfxMusic2">SFX MUSIK </string>
+    <string name="sfxMusic03">SFX MUSICA </string>
+    <string name="sfxMusic04">SFX 音乐  </string>
+
+
+    <!--    OVERALL LVL       -->
+
+        <string name="back0">Back </string>
+        <string name="back1">Povratak </string>
+        <string name="back2">Zurück </string>
+        <string name="back3">Indietro </string>
+        <string name="back4">背部 </string>
+
+
+    <!--    GAME LVL     -->
+
+        <!--    Text reklama      -->
+        <string name="textReklama0">Ads </string>
+        <string name="textReklama1">Reklame </string>
+        <string name="textReklama2">Anzeige </string>
+        <string name="textReklama3">Pubblicità </string>
+        <string name="textReklama4">广告  </string>
+
+        <!--    Text newLocalScore      -->
+        <string name="textNewLocalScore0">NEW LOCAL HIGH SCORE! </string>
+        <string name="textNewLocalScore1">NOVI LOKALNI REZULTAT! </string>
+        <string name="textNewLocalScore2">NEUE LOKALE HIGHSCORE! </string>
+        <string name="textNewLocalScore3">NUOVI PUNTEGGI PIU ALTI LOCALI! </string>
+        <string name="textNewLocalScore4">新的本地高分!  </string>
+
+    <!--    WORLDS LVL       -->
+
+        <!--    nema dovoljno zlatnika    -->
+        <string name="nemaDovoljnoZlatnika0">You need more </string>
+        <string name="nemaDovoljnoZlatnika1">Trebate više </string>
+        <string name="nemaDovoljnoZlatnika2">Du brauchst mehr  </string>
+        <string name="nemaDovoljnoZlatnika3">Hai bisogno di più </string>
+        <string name="nemaDovoljnoZlatnika4">你需要更多  </string>
+
+        <!--    kupovinaSvijetaPrviDio    -->
+        <string name="kupovinaSvijetaPrviDio0">Do you want to buy World </string>
+        <string name="kupovinaSvijetaPrviDio1">Želite li kupiti Svijet </string>
+        <string name="kupovinaSvijetaPrviDio2">Wollen Sie der Welt zu kaufen  </string>
+        <string name="kupovinaSvijetaPrviDio3">Vuoi comprare mondo </string>
+        <string name="kupovinaSvijetaPrviDio4">你想买世界  </string>
+
+        <!--    kupovinaSvijetaDrugiDio    -->
+        <string name="kupovinaSvijetaDrugiDio0">for </string>
+        <string name="kupovinaSvijetaDrugiDio1">Žza </string>
+        <string name="kupovinaSvijetaDrugiDio2">für  </string>
+        <string name="kupovinaSvijetaDrugiDio3">per </string>
+        <string name="kupovinaSvijetaDrugiDio4">对于  </string>
+
+        <!--    kupovinaUtrgovini    -->
+        <string name="kupovinaUtrgovini0">Do you want to buy </string>
+        <string name="kupovinaUtrgovini1">Želite li kupiti  </string>
+        <string name="kupovinaUtrgovini2">Wollen Sie kaufen  </string>
+        <string name="kupovinaUtrgovini3">Vuoi comprare </string>
+        <string name="kupovinaUtrgovini4">想买  </string>
+
+        <!--    Text kupnje - igraca    -->
+        <string name="textPlayers0">PLAYERS </string>
+        <string name="textPlayers1">IGRACI </string>
+        <string name="textPlayers2">SPIELER </string>
+        <string name="textPlayers3">GIOCATORI </string>
+        <string name="textPlayers4">玩家  </string>
+
+        <!--    Text player for    -->
+        <string name="textPlayerFor0">player for </string>
+        <string name="textPlayerFor1">igrača za  </string>
+        <string name="textPlayerFor2">spieler für </string>
+        <string name="textPlayerFor3">giacatorri per </string>
+        <string name="textPlayerFor4">玩家为  </string>
+
+
+        <!--    Text kupnje - zlatnika    -->
+        <string name="textZlatnika0">GOLD COINS</string>
+        <string name="textZlatnika1">ZLATNICI </string>
+        <string name="textZlatnika2">GOLDMÜNZEN </string>
+        <string name="textZlatnika3">MONETE D ORO </string>
+        <string name="textZlatnika4">金币  </string>
+
+
+    <!--    END LVL       -->
+
+        <string name="totalScore0">Total score</string>
+        <string name="totalScore1">Ukunpno</string>
+        <string name="totalScore2">Gesamtpunktzahl</string>
+        <string name="totalScore3">Punteggio totale</string>
+        <string name="totalScore4">总得分</string>
+
+
+        <string name="restart0">Restart</string>
+        <string name="restart1">Ponovo igraj</string>
+        <string name="restart2">Neustart</string>
+        <string name="restart3">Ricomincia</string>
+        <string name="restart4">重新开始</string>
+
+
+        <string name="mainMenu0">Main menu</string>
+        <string name="mainMenu1">Izbornik</string>
+        <string name="mainMenu2">Hauptmenü</string>
+        <string name="mainMenu3">Menu principale</string>
+        <string name="mainMenu4">主菜单</string>
+
+
+    <!--    SCORE IZBORNIK LVL       -->
+
+        <string name="localScore0">Local scores</string>
+        <string name="localScore1">Lokalni rezulrati</string>
+        <string name="localScore2">Lokale noten</string>
+        <string name="localScore3">Punteggi locali</string>
+        <string name="localScore4">当地分数</string>
+
+        <string name="onlineScore0">Online scores</string>
+        <string name="onlineScore1">Online rezultati</string>
+        <string name="onlineScore2">Online noten</string>
+        <string name="onlineScore3">Punteggi online</string>
+        <string name="onlineScore4">在线比分</string>
+
+    <!--    SCORE LOCALVIEW LVL       -->
+
+        <string name="register0">Register</string>
+        <string name="register1">Prijavi se</string>
+        <string name="register2">Neu registrieren</string>
+        <string name="register3">Registro</string>
+        <string name="register4">寄存器</string>
+
+        <string name="playerName0">Name:</string>
+        <string name="playerName1">Ime:</string>
+        <string name="playerName2">Name:</string>
+        <string name="playerName3">Nome:</string>
+        <string name="playerName4">名称:</string>
+
+        <string name="playerScore0">Score:</string>
+        <string name="playerScore1">Rezultat:</string>
+        <string name="playerScore2">Ergebnis:</string>
+        <string name="playerScore3">Punto:</string>
+        <string name="playerScore4">得分了:</string>
+
+    <!--    SAVE LVL       -->
+        <!--    SAVE        -->
+        <string name="save0">Save</string>
+        <string name="save1">Spremi</string>
+        <string name="save2">Sparen</string>
+        <string name="save3">Salvare</string>
+        <string name="save4">保存</string>
+
+        <!--    Unesite Text       -->
+        <string name="insertText0">Need to insert name!</string>
+        <string name="insertText1">Potrebno je ubaciti ime!</string>
+        <string name="insertText2">Need Name einfügen !</string>
+        <string name="insertText3">Necessità di inserire il nome !</string>
+        <string name="insertText4">需要插入的名字！</string>
+
+
+    <!--    SCORES ONLINE LVL       -->
+
+        <!--    top50!       -->
+        <string name="top0">Top 50!</string>
+        <string name="top1">Top 50!</string>
+        <string name="top2">Top 50!</string>
+        <string name="top3">Top 50!</string>
+        <string name="top4">50强！</string>
+
+        <!--    No web connection!      -->
+        <string name="noWebConn0">No web connection!</string>
+        <string name="noWebConn1">Internet isključen!</string>
+        <string name="noWebConn2">Keine Internetverbindung!</string>
+        <string name="noWebConn3">Nessuna connessione web!</string>
+        <string name="noWebConn4">没有网络连接！</string>
+
+        <!--    Loading!      -->
+        <string name="loading0">Loading . . . </string>
+        <string name="loading1">Loading . . .</string>
+        <string name="loading2">Laden . . .</string>
+        <string name="loading3">Caricamento in corso . . .</string>
+        <string name="loading4">装载 . . .</string>
+
+
+</resources>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/munje_2"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.10"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.05"
+            />
+
+        <Button
+            android:id="@+id/buttonBackWorlds"
+            android:layout_weight="0.35"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/back0"
+            android:background="@null"
+            android:textColor="#FFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:onClick="povratakMain" />
+
+
+        <TextView
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/brojZlatnikaSkrinje"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center|end"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:src="@drawable/skrinja_puna"
+            android:background="@null"
+            android:scaleType="centerInside"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.05"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.13">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeKupnje"
+            android:src="@drawable/kupovina"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.10">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/dugmeMogucihIgraca"
+            android:src="@drawable/otkljucani_igraci"
+            android:background="@null"
+            android:padding="3dp"
+            android:scaleType="centerInside"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.02"
+        />
+
+
+    <HorizontalScrollView
+        android:layout_weight="0.6"
+        android:fillViewport="true"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:requiresFadingEdge ="horizontal"
+        >
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            />
+
+            <LinearLayout
+                android:id="@+id/izaWorld1"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/biranSvijet1"
+                        android:orientation="horizontal"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.2"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.4"
+                        android:weightSum="1"
+                        android:background="@drawable/world_1"
+                        android:id="@+id/buttonWorld_1"
+                        >
+
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/biranSvijet11"
+                    android:orientation="horizontal"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.2"
+                    />
+
+
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"                />
+
+             <LinearLayout
+                android:id="@+id/izaWorld2"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/biranSvijet2"
+                    android:orientation="horizontal"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.2"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.4"
+                    android:weightSum="1"
+                    android:background="@drawable/world_2"
+                    android:id="@+id/buttonWorld_2"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.7 "
+                        />
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:layout_weight="0.2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+
+                        <LinearLayout
+                            android:layout_weight="0.05"
+                            android:orientation="horizontal"
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textIspodWrold_2"
+                            android:background="@null"
+                            android:layout_weight="0.5"
+                            android:gravity="top|center"
+                            android:textColor="#FFF"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="1000"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:id="@+id/zlatniciIspodWorld_2"
+                            android:layout_weight="0.4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/coin"
+                            android:scaleType="fitStart"
+                            />
+
+                        <LinearLayout
+                            android:layout_weight="0.05"
+                            android:orientation="horizontal"
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                 <LinearLayout
+                     android:id="@+id/biranSvijet21"
+                     android:orientation="horizontal"
+                     android:layout_height="0dp"
+                     android:layout_width="match_parent"
+                     android:layout_weight="0.2"
+                     />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.2"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.4"
+                    android:weightSum="1"
+                    android:background="#006699"
+                    >
+
+                    <!--
+                    <Button
+                        android:layout_weight="0.3"
+                        android:gravity="bottom|center"
+                        android:text="COMING SOON"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/buttonWorld_3"
+                        android:background="@null"
+                        android:textStyle="bold"
+                        android:textColor="#FFF"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        />
+
+                    -->
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/zakljucan_igrac"
+                        android:scaleType="centerInside"
+                        android:padding="10dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.2"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.4"
+                    android:weightSum="1"
+                    android:background="#006699"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/zakljucan_igrac"
+                        android:scaleType="centerInside"
+                        android:padding="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.2"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.4"
+                    android:weightSum="1"
+                    android:background="#006699"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/zakljucan_igrac"
+                        android:scaleType="centerInside"
+                        android:padding="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+

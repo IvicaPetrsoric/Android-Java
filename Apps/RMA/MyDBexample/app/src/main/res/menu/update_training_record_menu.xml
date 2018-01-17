@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always"
+        android:title="@string/search_records"/>
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always"
+        android:title="@string/add_record"/>
+
+    <item
+        android:id="@+id/action_sendMessage"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Send message"/>
+
+    <item
+        android:id="@+id/action_sendEmail"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Send Email"/>
+
+    <item
+        android:id="@+id/action_sendMultipleTrainings"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Send all from this point"/>
+
+</menu>

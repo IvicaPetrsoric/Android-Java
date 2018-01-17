@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#002244"
+    >
+
+
+    <TableRow
+        android:id="@+id/tableRowPrvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/english"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonEnglish"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/zastava_engleska"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableDrugi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/croatian"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:id="@+id/buttonCroatian"
+            android:layout_gravity="fill_horizontal"
+
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/zastava_hrvatska"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTreci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonGerman"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/german"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+
+            android:layout_gravity="fill_horizontal"
+
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/zastava_njemacka"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+             />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableCetvrti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonItaliano"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/italian"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="fill_horizontal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:src="@drawable/zastava_italija"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+             />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablePeti"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+
+            android:id="@+id/buttonChinese"
+            android:background="@null"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/kineski"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:src="@drawable/zastava_kina"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.5"
+            android:scaleY="0.5">
+
+        </ImageView>
+
+    </TableRow>
+
+
+
+</LinearLayout>

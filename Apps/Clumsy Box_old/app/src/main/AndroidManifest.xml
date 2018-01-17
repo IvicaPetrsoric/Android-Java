@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ivica.ClumsyBox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Clumsy Box"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.example.ivica.ClumsyBox.SplashScreen.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ivica.ClumsyBox.MainMenu.Main_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Loading.Loading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.End_Lvl.EndLvl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Game_Lvl.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Scores.ScoresIzbornik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Scores.ScoresLocalView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Scores.Keyboard.ScoresSave"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Scores.ScoresOnlineView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Worlds_lvl.Worlds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ivica.ClumsyBox.Worlds_lvl.Worlds_players"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name="com.example.ivica.ClumsyBox.Service.BackgroundSoundService"
+            android:enabled="true" />
+
+    </application>
+
+</manifest>

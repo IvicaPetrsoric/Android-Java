@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp" >
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/updateText"
+        android:hint="@string/name"
+        android:nextFocusDown="@+id/edittext_surname"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edittext_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/updateText"
+        android:hint="@string/surname"
+        android:nextFocusDown="@+id/edittext_date"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edittext_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dateofbirth"
+        android:textColor="@color/updateText"
+        android:nextFocusDown="@+id/edittext_rmamark"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edittext_rmamark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/rmamark"
+        android:textColor="@color/updateText"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_rmamark"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonupdate" />
+
+        <Button
+            android:id="@+id/button_default"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttondefault" />
+    </LinearLayout>
+
+</LinearLayout>

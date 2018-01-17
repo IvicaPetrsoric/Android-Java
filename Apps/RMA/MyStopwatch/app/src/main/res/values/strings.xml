@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyStopwatch</string>
+    <string name="stopwatch_start">Start!</string>
+    <string name="stopwatch_stop">Stop!</string>
+
+    <string name="stopwatch_label1">Start time:</string>
+    <string name="stopwatch_label2">Stop time:</string>
+    <string name="stopwatch_label3">Time diff:</string>
+
+    <string name="stopwatch_initialTime1">/</string>
+    <string name="stopwatch_initialTime2">/</string>
+    <string name="stopwatch_initialTime3">/</string>
+
+</resources>
